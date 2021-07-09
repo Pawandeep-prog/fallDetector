@@ -1,0 +1,123 @@
+body{
+
+}
+
+.colored_section{
+background-color: #7ed857;
+color: black;
+}
+.large_title{
+	font-size: 8rem;
+	margin-bottom: 30px;
+	margin-top: 80px;
+}
+.white_section{
+background-color: #000;
+color: #7ed857;
+}
+.btn{
+	margin-top: 60px;
+}
+.title_img{
+	width: 70%;
+	transform: rotate(10deg);
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.container-fluid{
+	padding: 80px;
+}
+#features_section{
+	text-align: center;
+}
+.feature_img{
+	width: 80%;
+}
+.feature_head{
+	font-size: 6rem;
+	margin-bottom: 80px;
+}
+.feature_row{
+	margin-top: 50px;
+}
+
+#permission_section{
+	text-align: center;
+}
+.permission_img{
+	width: 20%;
+	margin-top: 60px;
+}
+.permission_sub{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.permission_info{
+	color: #545454;
+}
+#watch_section{
+	text-align: center;
+}
+.watch_img{
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+#download_section{
+	text-align: center;
+}
+.down_btn{
+	height: 100px;
+	width: 40%;
+	margin-bottom: 40px;
+}
+
+#contact_section{
+	text-align: center;
+	background-color: #008037;
+}
+.contact_img{
+	width: 100px;
+}
+.carousal-img{
+	width: 30%;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #000;
+}
+
+@media (max-width: 1028px) {
+	#top_section{
+		text-align: center;
+	}
+	.title{
+		text-align: center;
+	}
+	.large_title{
+		font-size: 5rem;
+		font-weight: bold;
+	}
+
+  .title_img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
