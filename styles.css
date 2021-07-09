@@ -7,7 +7,7 @@ background-color: #7ed857;
 color: black;
 }
 .large_title{
-	font-size: 8rem;
+	font-size: 120px;
 	margin-bottom: 30px;
 	margin-top: 80px;
 }
@@ -35,7 +35,7 @@ color: #7ed857;
 	width: 80%;
 }
 .feature_head{
-	font-size: 6rem;
+	font-size: 90px;
 	margin-bottom: 80px;
 }
 .feature_row{
@@ -111,7 +111,7 @@ color: #7ed857;
 		text-align: center;
 	}
 	.large_title{
-		font-size: 5rem;
+		font-size: 80px;
 		font-weight: bold;
 	}
 
