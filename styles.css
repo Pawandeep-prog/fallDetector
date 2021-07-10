@@ -166,12 +166,18 @@ color: #7ed857;
 .brand-img{
 	width: 100px;
 }
+.container-title{
+	padding: 10px;
+}
 }
 
 @media (max-width: 400px) {
 	#top_section{
 		text-align: center;
 	}
+	.container-title{
+	padding: 10px;
+}
 	.title{
 		text-align: center;
 	}
