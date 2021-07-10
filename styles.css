@@ -4,6 +4,9 @@ body{
 .container-padding{
 	padding: 80px;
 }
+.container-title{
+	padding: 40px;
+}
 .colored_section{
 background-color: #7ed857;
 color: black;
@@ -146,7 +149,7 @@ color: #7ed857;
 	}
   .title_img {
     position: static;
-    width: 90%;
+    width: 40%;
     transform: rotate(0);
     margin-top: 40px;
   }
@@ -186,7 +189,7 @@ color: #7ed857;
 	}
   .title_img {
     position: static;
-    width: 90%;
+    width: 70%;
     transform: rotate(0);
     margin-top: 40px;
   }
@@ -194,7 +197,7 @@ color: #7ed857;
   	width: 70%;
   }
   .feature_head{
-  	font-size: 50px;
+  	font-size: 40px;
   }
   .carousal-img{
 	width: 50%;
