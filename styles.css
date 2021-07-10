@@ -21,7 +21,7 @@ color: #7ed857;
 	margin-top: 60px;
 }
 .title_img{
-	width: 70%;
+	width: 65%;
 	transform: rotate(10deg);
 	margin-left: 5px;
 	margin-top: 10px;
@@ -65,6 +65,10 @@ color: #7ed857;
 .watch_img{
 	width: 60%;
 	margin-bottom: 40px;
+}
+.watch_img:hover{
+	width: 62%;
+	transition-duration: 0.5s;
 }
 
 #download_section{
@@ -133,13 +137,17 @@ color: #7ed857;
 	.watch_img{
 		width: 100%;
 	}
+	.watch_img:hover{
+	width: 105%;
+	transition-duration: 0.5s;
+}
   .title_img {
     position: static;
     width: 90%;
     transform: rotate(0);
   }
   .down_btn{
-  	width: 60%;
+  	width: 70%;
   }
   .feature_head{
   	font-size: 50px;
@@ -147,5 +155,8 @@ color: #7ed857;
   .carousal-img{
 	width: 50%;
 	margin-top: 20px;
+}
+.brand-img{
+	width: 100px;
 }
 }
