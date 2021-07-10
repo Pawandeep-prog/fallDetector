@@ -1,13 +1,15 @@
 body{
 
 }
-
+.container-padding{
+	padding: 80px;
+}
 .colored_section{
 background-color: #7ed857;
 color: black;
 }
 .large_title{
-	font-size: 120px;
+	font-size: 100px;
 	margin-bottom: 30px;
 	margin-top: 80px;
 }
@@ -26,7 +28,7 @@ color: #7ed857;
 }
 
 .container-fluid{
-	padding: 80px;
+	
 }
 #features_section{
 	text-align: center;
@@ -70,7 +72,7 @@ color: #7ed857;
 }
 .down_btn{
 	height: 100px;
-	width: 50%;
+	width: 30%;
 	margin-bottom: 40px;
 }
 
@@ -104,6 +106,17 @@ color: #7ed857;
     margin: 10px;
     background-color: #000;
 }
+.brand-img{
+	width: 120px;
+}
+.nav-link{
+	font-size: 20px;
+	margin : 0 10px;
+
+}
+.ml-auto{
+	margin-left: auto;
+}
 
 @media (max-width: 1028px) {
 	#top_section{
@@ -115,6 +128,7 @@ color: #7ed857;
 	.large_title{
 		font-size: 60px;
 		font-weight: bold;
+		margin-top: 30px;
 	}
 	.watch_img{
 		width: 100%;
@@ -124,7 +138,12 @@ color: #7ed857;
     width: 90%;
     transform: rotate(0);
   }
-
+  .down_btn{
+  	width: 60%;
+  }
+  .feature_head{
+  	font-size: 50px;
+  }
   .carousal-img{
 	width: 50%;
 	margin-top: 20px;
